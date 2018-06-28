@@ -1,10 +1,15 @@
 = svWidgets News
 
+== Changes in svWidgets 0.9.45
+
+* Imports are changed to importFrom for more specific functions reference.
+
+
 == Changes in svWidgets 0.9-44
 
 * In order to conform to camelcase convention, ImgXXX() functions are renamed
   imgXXX(). Also argument 'imgtype' is renamed 'img.type'.
-  
+
 * Idem for MenuXXX(), ToolsXXX() and WinXXX() functions that become menuXXX(),
   toolsXXX() and winXXX(), respectively.
 
@@ -21,7 +26,7 @@
 
 * Corrected a warning about argument partial matching in ToolRead() with
   R 2.15.0.
-  
+
 * Call to .Internal(addhistory(....)) replaced by
   timestamp(...., prefix = "", suffix = "") to avoid use of .Internal() in the
   package.

@@ -1,4 +1,13 @@
-import(tcltk, utils, svMisc)
+importFrom(tcltk,".TkRoot", "tcl", "tclVar", "tkadd", "tkconfigure", "tkdelete",
+  "tkdestroy", "tkentryconfigure", "tkgrid", "tkinvoke", "tkmenu", "tkpack",
+  "tktitle<-", "tktoplevel", "tkwm.geometry", "tkwm.protocol", "ttkbutton",
+  "ttkframe", "ttkseparator")
+importFrom(utils, "head", "timestamp")
+if(.Platform$OS.type == "windows") {
+  importFrom(utils, "winMenuAdd", "winMenuAddItem", "winMenuDel",
+    "winMenuDelItem", "winMenuItems", "winMenuNames")
+}
+importFrom(svMisc, "assignTemp", "getTemp", "isRgui")
 
 export(imgAdd,
        imgDel,

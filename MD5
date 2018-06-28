@@ -1,6 +1,6 @@
-1a8ec60a3a339539187b037eb968980f *DESCRIPTION
-ce40e08f1ccbdbb3ef7879d89639402b *NAMESPACE
-b1374613524a1e508f5f917d8a9cbb6d *NEWS
+9e80a96c963ed66e4b1f6c36f1a6cf5d *DESCRIPTION
+7b7c2523678d1e938ae71888a4a262a3 *NAMESPACE
+f09bc7623d696db64381b238db9e1772 *NEWS
 3d612a66766221a3a2f0b89fde883525 *R/Img.R
 9e3b5dac305dbf16bd1cf0963ca8e523 *R/Menu.R
 bfbe553a369a7265ac4179c381846a3c *R/Tool.R
@@ -26,7 +26,7 @@ d7beacc2b4a432efef415f26f828be80 *inst/gui/logoSciViews.gif
 0910196bb06a2a0ccb2c6689c9eca3d9 *man/Menu.Rd
 9aa5193e5c67e6dc5cfd35e3285a918a *man/Tool.Rd
 a483e9ab9569f9dbe17492cd1ff1c7dd *man/Win.Rd
-150348c5fa8c2cb053af3ab98a0c9c1d *man/svWidgets-package.Rd
+902487203603218d1a98e2ab6ec3536b *man/svWidgets-package.Rd
 fe3b3ec23a38635cd0ea15dfe79ef97f *man/tkImg.Rd
 b2e8d7348ee595042625c30a4ba7cac8 *man/tkMenu.Rd
 28bf00adcb44195f1d8ea06c9b1d7de9 *man/tkTool.Rd
